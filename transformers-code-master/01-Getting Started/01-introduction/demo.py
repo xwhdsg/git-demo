@@ -6,4 +6,4 @@ from transformers import pipeline
 # 如果无法通过这种方式加载，可以采用离线加载的方式
 gr.Interface.from_pipeline(pipeline("question-answering", model="uer/roberta-base-chinese-extractive-qa")).launch()
 
-print("启动")
+print("启动!")
